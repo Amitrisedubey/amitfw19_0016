@@ -1,0 +1,75 @@
+body{
+    background: white;
+    font: 87.5%/1.5rem 'Open Sans' , sans-serif;
+    margin: 0;
+}
+p{
+    line-height: 1.5rem;
+}
+after{clear: both;}
+.login{
+    margin: 50px auto;
+    width: 300px;
+}
+.login form{
+    margin: auto;
+    padding: 22px 22px 22px 22px;
+    width: 100%;
+    border-radius: 5px;
+    background: #c7c0c3;
+    border-top: 3px solid #434a52;
+    border-bottom: 3px solid #434a52;
+}
+.login form span{
+    background-color: #363b41;
+    border-radius: 3px 0px 0px 3px;
+    border-right: 3px solid #434a52;
+    color: #606468;
+    display: block;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+height: 50px;
+}
+.login form input[type="email"]{
+    background-color: #e0e3e7;
+    border-radius: 0px 3px 3px 0px;
+    color: #a9a9a9;
+    margin-bottom: 1em;
+    padding: 0 16px;
+    width: 90%;
+    height: 50px;
+}
+.login form input[type="password"]{
+    background-color: #d9e0e9;
+    border-radius: 0px 3px 3px 0px;
+    color: #a9a9a9;
+    margin-bottom: 1em;
+    padding: 0 16px;
+    width: 90%;
+    height: 50px;
+
+}
+.container{
+    display: flex;
+    
+}
+#login-btn , #rgstr_btn{
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #ffffff;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+
+
+}
+
+
